@@ -1,0 +1,96 @@
+.projetos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e4e5f1;
+  padding: 20px;
+}
+
+.projetos-container h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80vw;
+}
+
+.projeto-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 325px;
+  height: 580px;
+  background: #f9fafb;
+  padding: 0 12px 12px 0;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  margin: 24px 5px 0 5px;
+}
+
+.projeto-box img {
+  width: 325px;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+}
+
+.projeto-box h3 {
+  margin: 12px 0 12px 0;
+  font-size: 22px;
+  padding-left: 12px;
+}
+
+.projeto-box p {
+  padding-left: 12px;
+  margin-bottom: 15px;
+}
+
+.repositorio {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.repositorio a {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.repositorio .github {
+  width: 26px;
+  height: 26px;
+  margin-right: 6px;
+}
+
+.repositorio span {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .projetos-container h2 {
+    font-size: 23px;
+  }
+
+  .projeto-box {
+    width: 290px;
+    height: auto;
+  }
+
+  .projeto-box img {
+    width: 290px;
+    height: 180px;
+  }
+
+  .projeto-box h3 {
+    font-size: 20px;
+  }
+}

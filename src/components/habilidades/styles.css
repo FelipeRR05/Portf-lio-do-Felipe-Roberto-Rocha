@@ -1,0 +1,53 @@
+.habilidades-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d2d3db;
+  padding: 20px;
+}
+
+.habilidades-container h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80vw;
+}
+
+.skills-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  background: #f9fafb;
+  padding: 12px 12px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  margin: 24px 10px 10px 10px;
+}
+
+.skills-box img {
+  width: 48px;
+  height: 48px;
+}
+
+.skills-box p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+
+@media (max-width: 768px) {
+  .habilidades-container h2 {
+    font-size: 23px;
+  }
+
+  .skills-box p {
+    font-size: 16px;
+  }
+}
