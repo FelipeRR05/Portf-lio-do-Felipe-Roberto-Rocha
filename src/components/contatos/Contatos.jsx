@@ -5,7 +5,7 @@ export default function Contatos() {
     <div className="contatos-container" id="contatos">
       <h2>Contatos</h2>
       <div className="contatos-text">
-        <p>E-mail: feliperrocha2005@gmial.com</p>
+        <p>E-mail: feliperobertor05@gmail.com</p>
         <p>Telefone: +55 (47) 98419-7654</p>
       </div>
       <div className="contatos-redes">

@@ -14,6 +14,7 @@ export default function Habilidades() {
           { name: "TypeScript", icon: "typescript" },
           { name: "React Native", icon: "react" },
           { name: "PHP", icon: "php" },
+          { name: "MySQL", icon: "mysql" },
           { name: "Python", icon: "python" },
           { name: "Java", icon: "java" },
           { name: "Flutter", icon: "flutter" },

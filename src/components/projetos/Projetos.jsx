@@ -7,9 +7,9 @@ export default function Projetos() {
       <div className="projetos">
         <div className="projeto-box">
           <img src="/assets/images/moviemap.png" />
-          <h3>MovieMap</h3>
+          <h3>Guia de Filmes e Séries</h3>
           <p>
-            MovieMap é uma aplicação web interativa desenvolvida em React, com o
+            O projeto consiste em uma aplicação web interativa desenvolvida em React, com o
             objetivo de proporcionar uma experiência completa e personalizada
             para usuários interessados em filmes e séries. O objetivo é
             proporcionar aos usuários uma interface completa para pesquisar e
@@ -29,9 +29,9 @@ export default function Projetos() {
         </div>
         <div className="projeto-box">
           <img src="/assets/images/moviemapmobile.png" />
-          <h3>MovieMap Mobile</h3>
+          <h3>Guia de Filmes e Séries Mobile</h3>
           <p>
-            MovieMap Mobile é uma aplicação mobile nativa interativa
+            O projeto consiste em  uma aplicação mobile nativa interativa
             desenvolvida em React Native, com o objetivo de proporcionar uma
             experiência completa e personalizada para usuários interessados em
             filmes e séries. O objetivo é proporcionar aos usuários uma

@@ -30,13 +30,13 @@
   font-size: 18px;
 }
 
-.navbar li:hover {
-  background-color: #9394a5;
-}
-
 .navbar a {
   text-decoration: none;
   color: black;
+}
+
+.navbar a:hover {
+  color: rgba(4, 2, 73, 1);
 }
 
 html {
